@@ -27,3 +27,13 @@ console.log(user);
 
 });
 
+var validar = document.querySelector("#validar", function(event){
+
+    validar.addEventListener("click", function(e){
+
+        e.preventDefault();
+        console.log("");
+
+    });
+
+});
